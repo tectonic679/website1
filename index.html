@@ -78,39 +78,6 @@
         </div>
     </section>
 
-    <!-- projects section design -->
-    <!--<section class="projects" id="project">
-        <h2 class="heading">My <span>Projects</span></h2>
-
-        <div class="projects-container">
-            <div class="projects-box">
-                <i class='bx bx-code-alt'></i>>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aperiam architecto, aliquid necessitatibus inventore velit iste eaque provident, doloribus perferendis eligendi dignissimos quae molestiae nesciunt ut dolor sed consequuntur
-                    sunt?
-                </p>
-                <a href="#" class="btn">Click to View</a>
-            </div>
-
-            <div class="projects-box">
-                <i class='bx bxs-paint'></i>
-                <h3>Graphic Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aperiam architecto, aliquid necessitatibus inventore velit iste eaque provident, doloribus perferendis eligendi dignissimos quae molestiae nesciunt ut dolor sed consequuntur
-                    sunt?
-                </p>
-                <a href="#" class="btn">Click to View</a>
-            </div>
-
-            <div class="projects-box">
-                <i class='bx bx-code-alt'></i>>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aperiam architecto, aliquid necessitatibus inventore velit iste eaque provident, doloribus perferendis eligendi dignissimos quae molestiae nesciunt ut dolor sed consequuntur
-                    sunt?
-                </p>
-                <a href="#" class="btn">Click to View</a>
-            </div>
-        </div>
-    </section>-->
     <!-- portfolio section design -->
     <section class="portfolio reveal" id="portfolio">
         <h2 class="heading">Latest <span>Project</span></h2>
@@ -142,52 +109,23 @@
                     <a href="image_slider.html"><i class='bx bxs-paint'></i></a>
                 </div>
             </div>
-
-            <!--<div class="portfolio-box">
-                <img src="images/portfolio5.jpg">
-                <div class="portfolio-layer">
-                    <h4>Graphic Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, nostrum?</p>
-                    <a href="#"><i class='bx bxs-paint'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/portfolio6.jpg">
-                <div class="portfolio-layer">
-                    <h4>Graphic Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, nostrum?</p>
-                    <a href="#"><i class='bx bxs-paint'></i></a>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="images/portfolio6.jpg">
-                <div class="portfolio-layer">
-                    <h4>Graphic Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, nostrum?</p>
-                    <a href="#"><i class='bx bxs-paint'></i></a>
-                </div>
-            </div>-->
         </div>
     </section>
 
     <!-- contact section design -->
     <section class="contact reveal" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form onsubmit="sendEmail(); reset(); return false;" id="contactForm">
+        <form action="https://formsubmit.co/contactisindu@gmail.com" method="POST">
             <div class="input-box">
-                <input type="text" id="name" name="fullName" id="name" placeholder="Full Name">
-                <input type="email" id="email" name="email" id="email" placeholder="Email Address">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
             </div>
 
             <div class="input-box">
-                <input type="tel" id="phone" name="phone" id="phone" placeholder="Mobile Number">
-                <input type="text" id="subject" name="subject" id="subject" placeholder="Email Subject">
+                <input type="text" name="subject" placeholder="Email Subject">
             </div>
-            <textarea id="message" name="message" cols="30" rows="10" id="message" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-            <!-- Corrected 'inupt' to 'input' -->
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </section>
 
@@ -200,7 +138,6 @@
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
-
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
