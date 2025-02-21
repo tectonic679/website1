@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
@@ -388,30 +387,24 @@ header nav a.active {
 
 /* Fix the typo in padding property */
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 600px) {
     #menu-icon {
         display: block;
     }
     .home-content h3 {
         padding-left: 1rem;
-        font-size: 1.9rem;
+        font-size: 1.5rem;
         /* Adjust the desired font size */
     }
     .home-content h1 {
         padding-left: 1rem;
-        font-size: 1.9rem;
+        font-size: 1.5rem;
         /* Adjust the desired font size */
         line-height: 1.2;
-    }
-    .about {
-        gap: 2rem;
     }
     .about-img {
         align-items: left;
         width: 35vw;
-    }
-    .portfolio {
-        gap: 2rem;
     }
     .portfolio-container {
         grid-template-columns: 1fr;
@@ -466,5 +459,4 @@ header nav a.active {
 .sr .heading.visible {
     opacity: 1;
     transform: translateY(0);
-
 }

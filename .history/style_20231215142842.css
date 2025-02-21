@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
@@ -440,10 +439,10 @@ header nav a.active {
         background: var(--bg-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
+        display: block;
     }
     .navbar.active {
-        display: block;
+        display: none;
     }
     .navbar a {
         display: block;
@@ -466,5 +465,4 @@ header nav a.active {
 .sr .heading.visible {
     opacity: 1;
     transform: translateY(0);
-
 }

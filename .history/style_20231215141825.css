@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
@@ -408,7 +407,12 @@ header nav a.active {
     }
     .about-img {
         align-items: left;
-        width: 35vw;
+        width: 100%;
+        /* Make the image take up the full width */
+    }
+    .about-content-wrapper {
+        flex-direction: column;
+        align-items: stretch;
     }
     .portfolio {
         gap: 2rem;
@@ -427,8 +431,16 @@ header nav a.active {
         /* Make the images take up the full width */
     }
     .portfolio-box .portfolio-layer {
-        padding: 0 2rem;
+        padding: 0 1rem;
         /* Adjust padding for mobile view */
+    }
+    .services h2 {
+        margin-bottom: 3rem;
+    }
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 100%;
+        /* Make the input fields take up the full width */
     }
     .navbar {
         position: relative;
@@ -466,5 +478,4 @@ header nav a.active {
 .sr .heading.visible {
     opacity: 1;
     transform: translateY(0);
-
 }
